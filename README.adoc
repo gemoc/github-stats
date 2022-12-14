@@ -1,0 +1,19 @@
+= Basic Github user stats extractor
+
+Retrieve and count unique users who contributed to a repository
+
+*Parameters:*
+
+. List of repositories (space-separated string),
+. Github token to use (string),
+. How far in time should data be fetched (date).
+
+*Example query:*
+
+```bash
+
+$ bash stats.sh \
+    "repo1 repo2 repo3"
+    "my_very_secret_token"\
+    "2018-01-01"
+```
